@@ -1,0 +1,117 @@
+* {
+    margin: 0;
+    padding: 0;
+    
+}
+body{
+    background-color: #f8f9fa;
+
+}
+.main {
+    padding-top: 50px;
+    margin: 0 20px;
+}
+
+.buscador {
+    padding-bottom: 20px;
+}
+
+.parrafoAcordeon {
+    font-size: .6rem;
+    margin-bottom: -1px;
+}
+
+#nombreHoy, #nombreTemprano {
+    font-weight: 900;
+}
+.actual {
+    border: 1px solid #dee2e6;
+    border-radius: 5px;
+    box-shadow: 0 0 1px 1px #dee2e6;
+    margin-top: 50px;
+    margin-bottom: 300px;
+    background-image: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+}
+
+.datos {
+    display: flex;
+    flex-flow: row wrap;
+    align-items: flex-end;
+    gap: 5px;
+    padding-top: 10px;
+    margin-bottom: -10px;
+}
+
+.globos {
+    display: flex;
+    flex-flow: column wrap;
+    margin-bottom: 20px;
+}
+
+ .globos__emisor {
+    align-content: flex-start;
+    background-image: linear-gradient(120deg, #e0c3fc 0%, #8ec5fc 100%);
+    margin: 10px 0;
+    padding: 5px;
+    border: 1px solid #dee2e6;
+    border-radius: 5px;
+} 
+
+
+.globos__receptor{
+    align-content: flex-end;
+    background-image: linear-gradient(120deg, #a1c4fd 0%, #c2e9fb 100%);
+    border: 1px solid #dee2e6;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.globos__receptor p {
+    font-size: .6rem;
+    margin-bottom: -1px;
+}
+
+.margen_conversacion{
+    margin-top: 10.5rem;
+}
+
+.input {
+    display: flex;
+    width:80%;
+    margin: 35px 0;
+}
+
+.texto  {
+    width: 100%;
+    height: 2em;
+    border: 1px solid #dee2e6;
+    border-radius: 5px;
+    margin-left: 20px;
+}
+
+.button{
+    margin-left: 20px;
+    border: 1px solid #dee2e6;
+    border-radius: 5px;
+    padding: 3px;
+}
+
+.adjuntos {
+    margin-top: -35px;
+    padding: 10px;
+    padding-left: 20px;
+}
+
+.foto, .archivo, .video {
+    padding-right: 10px;;
+}
+
+.btn-dropdown{
+    background-color: #dee2e6 ;
+    border: 1px solid #dee2e6;
+
+}
+.adjuntos-dropdown {
+    width: 60%;
+    text-align: center;
+}
